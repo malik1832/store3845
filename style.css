@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e2028;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Tajawal', sans-serif;
+}
+main{
+    max-width: 1366px;
+    margin: 0 auto;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.nav .logo{
+    font-size: 3rem;
+    color: blueviolet;
+}
+.nav-items{
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav .nav-items .nav-item{
+    padding-left: 2rem;
+}
+.nav-item .nav-link{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.nav-item .nav-link:hover{
+    color: blueviolet;
+}
+.cta{
+    font-family: inherit;
+    padding: 0.75rem 2rem;
+    border: none;
+    color: #54596c;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+.cta.dark{
+    background-color: #252731;
+}
+.cta.dark:hover{
+    background-color: rgb(18, 17, 24);
+}
+.botes.purple{
+    background-color: darkorchid;
+}
+.botes.purple:hover{
+    background-color: #41415a;
+}
+.botes.purple{
+    font-family: inherit;
+    padding: 0.75rem 2rem;
+    border: none;
+    color: #1e2028;
+    border-radius: 1rem;
+    font-size: 1rem;}
+.botes.dark{
+    background-color: #252731;
+}
+.botes.dark:hover{
+    background-color: rgb(17, 19, 26);
+}
+.botes.dark{
+    font-family: inherit;
+    padding: 0.75rem 2rem;
+    border: none;
+    color: #595e71;
+    border-radius: 1rem;
+    font-size: 1rem;}
+    /* القسم الاساسي */
+
+.hero{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    width: 40%;
+    text-align: center;
+    color: wheat;
+    margin-bottom: 2rem;
+}
+.hero h1 span{
+    color: darkmagenta;
+}
+.hero .botes.purple{
+    margin-left: 1rem;
+}
+.heder{
+    height: 2rem;
+    color: #41415a;  
+}
+/* media */
+@media (max-width: 500px) {
+    .hero{
+        margin-right: 26rem;
+    }
+    .hero2{
+        margin-right: 32rem;
+        margin-top: -3rem;
+        width: 30rem;
+        
+    }
+    .hero3{
+        margin-right: 22rem;
+        margin-top: -5rem;
+    }
+    .box1{
+        height: 100px;
+        width: 100px;
+        background-color: #0033ff;
+        margin-right: 34rem;
+        margin-top: 13rem;
+        border-radius: 20px;
+    }
+    .box2{
+        height: 100px;
+        width: 100px;
+        background-color: #0033ff;
+        margin-right: 21rem;
+        margin-top: -6.20rem;
+        border-radius: 20px;
+    }
+    .box3{height: 100px;
+        width: 100px;
+        background-color: #0033ff;
+        margin-right: 21rem;
+        margin-top: 3rem;
+        border-radius: 20px;}
+        .box4{
+            height: 100px;
+        width: 100px;
+        background-color: #0033ff;
+        margin-right: 34rem;
+        margin-top: -6.30rem;
+        border-radius: 20px;
+        }
+
+    }
+    @media (max-width: 768px) {
+        .hero{
+            margin-left: 18rem;
+
+        }
+    }
+    @media (max-width: 992px) {
+        .hero{
+            margin-left                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                : 30rem;
+        }
+
+    }
